@@ -1,0 +1,52 @@
+# Variabili d'ambiente e chiavi API locali
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Ambienti virtuali Python
+.venv/
+venv/
+env/
+ENV/
+
+# Bytecode, cache e artefatti Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Checkpoint e file locali Jupyter/IPython
+.ipynb_checkpoints/
+.ipython/
+
+# Report generati dai notebook e dalla webapp
+output_report/
+
+# Audio caricati temporaneamente dal server
+temp_audio/
+
+# Log e file temporanei
+*.log
+*.tmp
+*.swp
+*.swo
+~$*
+
+# Configurazioni locali degli editor
+.idea/
+.vscode/
+
+# File di sistema Windows e macOS
+Thumbs.db
+Desktop.ini
+.DS_Store
